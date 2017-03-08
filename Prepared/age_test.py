@@ -1,5 +1,3 @@
-#test
-
 age = input("How old are you? ")
 
 if int(age) < 18:

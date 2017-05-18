@@ -9,6 +9,7 @@ countries = ["France", "Canada", "Netherlands"]
 # ---------------------
 
 # for country in countries:
+#     # country = countries[1]
 #     print(country)
 
 # ---------------
@@ -19,11 +20,22 @@ countries = ["France", "Canada", "Netherlands"]
 
 # ---------------
 
-names = ["Ann", "Lena", "Bruno", "Luc", "Michelle"]
-# names = ["Lena", "Bruno", "Luc", "Michelle"]
+# names = ["Ann", "Lena", "Bruno", "Luc", "Michelle"]
+#
+# for name in names[:]:
+#     if len(name) < 5:
+#         names.remove(name)
+#
+# print(names)
 
-for name in names:
-    if len(name) < 5:
-        names.remove(name)
+# --------------
+
+names = ["Ann", "Lena", "Bruno", "Luc", "Michelle"]
+i = len(names) - 1
+
+while i >= 0:
+    if len(names[i]) < 5:
+        del names[i]
+    i = i - 1
 
 print(names)

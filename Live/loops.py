@@ -1,9 +1,9 @@
-# max = 10
-# current = 0
-#
-# while current <= max:
-#     print(current)
-#     current = current + 1
+max = 10
+current = 0
+
+while current <= max:
+    print(current)
+    current = current + 1
 
 # -------------
 
@@ -17,7 +17,7 @@
 
 # while True:
 #     print(1)
-#     if 1 == 2:
+#     if 1 == 1:
 #         break
 #     print(2)
 
@@ -30,13 +30,13 @@
 #     i = i + 1
 
 # ------
-i = 0
-iWantToContinue = True
-while iWantToContinue:
-    print(i)
-    if i == 20:
-        iWantToContinue = False
-    i = i + 1
+# i = 0
+# iWantToContinue = True
+# while iWantToContinue:
+#     print(i)
+#     if i == 20:
+#         iWantToContinue = False
+#     i = i + 1
 
 
 

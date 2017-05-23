@@ -13,6 +13,7 @@ countries = ["France", "Canada", "Netherlands"]
 #     print(country)
 
 # ---------------
+
 # name = "Lena"
 #
 # for letter in name:
@@ -31,6 +32,7 @@ countries = ["France", "Canada", "Netherlands"]
 # --------------
 
 names = ["Ann", "Lena", "Bruno", "Luc", "Michelle"]
+
 i = len(names) - 1
 
 while i >= 0:
@@ -39,3 +41,8 @@ while i >= 0:
     i = i - 1
 
 print(names)
+
+
+
+
+

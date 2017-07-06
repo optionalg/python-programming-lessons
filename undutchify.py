@@ -1,8 +1,3 @@
-# This program is supposed to fail when accessing indexes outside of the range of dutch_name
-# Although it doesn't fail! Debug it and find out why!
-
-# actually, it fails if the name ends with a single vowel :)
-
 dutch_name = input("Please enter you Dutch name: ")
 new_name = ""
 

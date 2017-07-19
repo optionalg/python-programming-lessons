@@ -1,3 +1,5 @@
+# pylint: disable=C0103
+
 doors_closed = False
 lights_off = False
 alarm_code_correct = False
